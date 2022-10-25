@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  padding: 1vh 1vw;
+  position: relative;
+  overflow-x: hidden;
+}
+#nav {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+.align-items {
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+}
+#nav .icon img {
+  width: 2.4vw;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5vw;
+}
+#nav i {
+  color: #5d9dd8;
+  font-size: 1.5vw;
+}
+#nav input {
+  border-radius: 1em;
+  border: 1px solid black;
+  height: 5vh;
+  width: 20vw;
+  margin-left: 3vw;
+  padding: 0 1vw;
+}
+.content {
+  width: 100%;
+
+  background-color: rgb(246, 244, 244);
+  border-radius: 1em;
+  position: relative;
+
+  display: flex;
+}
+.left {
+  width: 30vw;
+  height: 91vh;
+
+  display: flex;
+  justify-content: center;
+}
+.right {
+  width: 70vw;
+}
+.left .profile {
+  background-color: white;
+  border-radius: 1em;
+  margin-top: 4vh;
+  height: fit-content;
+}
+.post {
+  width: 96%;
+
+  background-color: white;
+  border-radius: 1em;
+  margin-top: 4vh;
+}
+.feed {
+  width: 96%;
+  margin-top: 4vh;
+  background-color: white;
+  border-radius: 1em;
+  padding: 2vh 2vw;
+}
+.psection {
+  display: flex;
+  min-width: 10vw;
+  max-width: 25vw;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+.img-container {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-right: 1vw;
+}
+.img-styling {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.name-aligner {
+  margin-top: 1vh;
+  margin-bottom: 0.5vh;
+}
+.rsection {
+  padding: 2vh 2vw;
+}
+.rsection .makepost {
+  display: flex;
+}
+.rsection .makepost textarea {
+  width: 100%;
+  height: 7vh;
+  border-radius: 2em;
+  border: none;
+  padding: 1.5vh 2vw;
+  background-color: rgb(246, 244, 244);
+  resize: none;
+}
+.rsection .makepost button {
+  border: none;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+.options {
+  margin-top: 2vh;
+}
+.options a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1vw;
+}
+.options i {
+  margin-right: 0.5vw;
+}
+.feed .actual-post p {
+  margin-top: 1vh;
+}
+.actual-post .post-image {
+  border-radius: 1em;
+  overflow: hidden;
+  width: fit-content;
+  max-height: 45vh;
+}
+.actual-post .grid-options {
+  margin-top: 1.5vh;
+}
+.actual-post .grid-options a {
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+  margin-right: 1vw;
+}
+.actual-post .grid-options i {
+  font-size: 1.5vw;
+}
+.ri-heart-fill {
+  color: red;
+}

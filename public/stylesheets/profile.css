@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+  overflow-x: hidden;
+}
+#nav {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+.align-items {
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+}
+#nav .icon img {
+  width: 2.4vw;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5vw;
+}
+#nav i {
+  color: #5d9dd8;
+  font-size: 1.5vw;
+}
+#nav input {
+  border-radius: 1em;
+  border: 1px solid black;
+  height: 5vh;
+  width: 20vw;
+  margin-left: 3vw;
+  padding: 0 1vw;
+}
+.cover-photo {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-color: red;
+}
+.align-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-photo {
+  height: 9em;
+  width: 9em;
+  border-radius: 50%;
+  margin-top: -10vh;
+  overflow: hidden;
+  position: relative;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  position: absolute;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.214);
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+}
+.details-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content .profile-details {
+  width: 70vw;
+  height: 35vh;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  display: flex;
+}
+.options h6 {
+  margin-right: 1vw;
+  font-family: Gilroy;
+  margin-top: 1vh;
+  color: rgb(95, 95, 95);
+}
+.text {
+  width: 50%;
+  margin-top: 2vh;
+}
+button {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.6em;
+  border: none;
+  background-color: #13b8a5;
+  color: white;
+  border-radius: 0.2em;
+  margin-top: 3vh;
+}
+form {
+  display: none;
+}
